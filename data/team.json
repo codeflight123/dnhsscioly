@@ -5,43 +5,102 @@
   "mascot": "Nighthawks",
   "teams": [
     {
-      "id": 1, "name": "Team 1", "color": "#f5c842",
+      "id": 1, "name": "Team King Julien", "color": "#f5c842",
       "members": [
-        { "name": "Alex Chen",    "grade": 12, "role": "Captain",  "events": ["Astronomy","Codebusters","Remote Sensing"] },
-        { "name": "Maya Patel",   "grade": 11, "role": "Member",   "events": ["Chemistry Lab","Materials Science","Forensics"] },
-        { "name": "Jordan Kim",   "grade": 10, "role": "Member",   "events": ["Boomilever","Circuit Lab","Machines"] }
+        { "name": "Derek Tan",                 "grade": 11, "role": "Captain", "email": "derekt2027@gmail.com",              "events": ["Disease Detectives", "Bungee Drop", "Machines"] },
+        { "name": "Aarav Sriranagiri",         "grade": 9,  "role": "Member",  "email": "emailaaravsrg@gmail.com",           "events": ["Codebusters", "Entomology", "Materials Science", "Rocks and Minerals"] },
+        { "name": "Aarav Wadhwani",            "grade": 9,  "role": "Member",  "email": "aaravw2001@gmail.com",              "events": ["Anatomy & Physiology", "Machines", "Hovercraft", "Robot Tour"] },
+        { "name": "Adeeb Ansari",              "grade": 9,  "role": "Member",  "email": "adeeb.ovmss0@gmail.com",            "events": ["Anatomy & Physiology", "Remote Sensing", "Experimental Design"] },
+        { "name": "Ayush Jena",                "grade": 11, "role": "Member",  "email": "ayushjena78@gmail.com",             "events": ["Machines", "Circuit Lab", "Hovercraft", "Robot Tour"] },
+        { "name": "Joann Xie",                 "grade": 11, "role": "Member",  "email": "joannxie60@gmail.com",              "events": ["Codebusters", "Forensics", "Experimental Design"] },
+        { "name": "Krisha Sakarwala",          "grade": 9,  "role": "Member",  "email": "krishasakarwala1@gmail.com",        "events": ["Disease Detectives", "Materials Science", "Water Quality"] },
+        { "name": "Madhura Anandakumar",       "grade": 11, "role": "Member",  "email": "rubymoon221@gmail.com",             "events": ["Entomology", "Boomilever"] },
+        { "name": "Neel Sehdave",              "grade": 10, "role": "Member",  "email": "neelsehdave@gmail.com",             "events": ["Codebusters", "Forensics", "Astronomy"] },
+        { "name": "Nolan Yu",                  "grade": 11, "role": "Member",  "email": "nolanyu620@gmail.com",              "events": ["Anatomy & Physiology", "Designer Genes", "Machines"] },
+        { "name": "Ridhi Patil",               "grade": 9,  "role": "Member",  "email": "sd.ridhi.patil@gmail.com",          "events": ["Disease Detectives", "Machines"] },
+        { "name": "Sanya Kapoor",              "grade": 12, "role": "Member",  "email": "sanya.kapoors0@gmail.com",          "events": ["Boomilever", "Bungee Drop", "Electric Vehicle"] },
+        { "name": "Shiva Ambatipudi",          "grade": 10, "role": "Member",  "email": "shivamanas21210@gmail.com",         "events": ["Forensics", "Dynamic Planet", "Designer Genes"] },
+        { "name": "Ved Jois",                  "grade": 9,  "role": "Member",  "email": "vedjois1@gmail.com",                "events": ["Anatomy & Physiology", "Astronomy", "Dynamic Planet", "Boomilever"] },
+        { "name": "Zaid Iqbal",                "grade": 10, "role": "Member",  "email": "zaid610@gmail.com",                 "events": ["Anatomy & Physiology", "Machines", "Hovercraft"] }
       ]
     },
     {
-      "id": 2, "name": "Team 2", "color": "#3a8fd1",
+      "id": 2, "name": "Team Marty", "color": "#3a8fd1",
       "members": [
-        { "name": "Sam Rivera",   "grade": 12, "role": "Captain",  "events": ["Anatomy & Physiology","Disease Detectives","Water Quality"] },
-        { "name": "Priya Nair",   "grade": 11, "role": "Member",   "events": ["Designer Genes","Entomology","Experimental Design"] },
-        { "name": "Tyler Wong",   "grade": 10, "role": "Member",   "events": ["Robot Tour","Electric Vehicle","Engineering CAD"] }
+        { "name": "Joshan Tambiah",            "grade": 12, "role": "Captain", "email": "jrtambiah@gmail.com",               "events": ["Anatomy & Physiology", "Machines", "Bungee Drop"] },
+        { "name": "Aarini Parikh",             "grade": 10, "role": "Member",  "email": "aarini.parikh@gmail.com",           "events": ["Machines", "Designer Genes", "Water Quality"] },
+        { "name": "Aarush Bandi",              "grade": 9,  "role": "Member",  "email": "Aarushb.2022@gmail.com",            "events": ["Engineering CAD", "Entomology", "Chem Lab", "Boomilever"] },
+        { "name": "Anagha Rajagopalan",        "grade": 9,  "role": "Member",  "email": "anagha.m.rajagopalan@gmail.com",    "events": ["Anatomy & Physiology", "Disease Detectives"] },
+        { "name": "Cyrus Zhang",               "grade": 10, "role": "Member",  "email": "yihez55667@stu.powayusd.com",       "events": ["Codebusters", "Entomology", "Boomilever", "Electric Vehicle"] },
+        { "name": "Emily Yujin Jung",          "grade": 11, "role": "Member",  "email": "emily.jung1352@gmail.com",          "events": ["Anatomy & Physiology", "Entomology", "Electric Vehicle"] },
+        { "name": "Haley Shah",                "grade": 9,  "role": "Member",  "email": "haleyshah17047@gmail.com",          "events": ["Anatomy & Physiology", "Machines", "Designer Genes"] },
+        { "name": "Laya Balaji",               "grade": 10, "role": "Member",  "email": "layabalaji420@gmail.com",           "events": ["Codebusters", "Disease Detectives", "Astronomy"] },
+        { "name": "Mayukh Penukonda",          "grade": 9,  "role": "Member",  "email": "nayukhpenukonda@gmail.com",         "events": ["Codebusters", "Astronomy", "Machines"] },
+        { "name": "Rayna Lee",                 "grade": 11, "role": "Member",  "email": "raynalxxs@gmail.com",               "events": ["Disease Detectives", "Materials Science"] },
+        { "name": "Rhys Huang",                "grade": 10, "role": "Member",  "email": "rhysh17675@stu.powayusd.com",       "events": ["Codebusters", "Remote Sensing", "Dynamic Planet", "Boomilever"] },
+        { "name": "Shrikar Vattikuti",         "grade": 9,  "role": "Member",  "email": "vattikuti.shrikar@gmail.com",       "events": ["Anatomy & Physiology", "Remote Sensing", "Chem Lab"] },
+        { "name": "Srikanth Mohan",            "grade": 11, "role": "Member",  "email": "srikanthmohan99@gmail.com",         "events": ["Anatomy & Physiology", "Forensics", "Electric Vehicle", "Robot Tour"] },
+        { "name": "Sumedh Kotturi",            "grade": 9,  "role": "Member",  "email": "lalitha.chittila@gmail.com",        "events": ["Astronomy", "Designer Genes"] },
+        { "name": "Tanay Paranjpe",            "grade": 11, "role": "Member",  "email": "tanay.paranjpe@gmail.com",          "events": ["Engineering CAD", "Astronomy", "Hovercraft", "Robot Tour"] }
       ]
     },
     {
-      "id": 3, "name": "Team 3", "color": "#2ec4a9",
+      "id": 3, "name": "Team Maurice", "color": "#2ec4a9",
       "members": [
-        { "name": "Aiden Park",   "grade": 12, "role": "Captain",  "events": ["Dynamic Planet","Rocks & Minerals","Remote Sensing"] },
-        { "name": "Sofia Gomez",  "grade": 11, "role": "Member",   "events": ["Forensics","Water Quality","Disease Detectives"] },
-        { "name": "Noah Ali",     "grade": 10, "role": "Member",   "events": ["Helicopter","Bungee Drop","Hovercraft"] }
+        { "name": "Ian Wu",                    "grade": 12, "role": "Captain", "email": "keledang777@gmail.com",             "events": ["Entomology", "Machines", "Materials Science"] },
+        { "name": "Rachael Ma",                "grade": 11, "role": "Member",  "email": "mma669690@gmail.com",               "events": ["Entomology", "Chem Lab", "Designer Genes"] },
+        { "name": "Neel Adam",                 "grade": 11, "role": "Member",  "email": "neeladam2009@gmail.com",            "events": ["Engineering CAD", "Designer Genes", "Robot Tour"] },
+        { "name": "Saatvic Mahesh",            "grade": 10, "role": "Member",  "email": "saatvicmahesh@gmail.com",           "events": ["Codebusters", "Machines", "Boomilever", "Circuit Lab"] },
+        { "name": "Ella Zhao",                 "grade": 10, "role": "Member",  "email": "tiggymimi10@gmail.com",             "events": ["Engineering CAD", "Astronomy", "Materials Science"] },
+        { "name": "Eric Wu",                   "grade": 11, "role": "Member",  "email": "ewu08.work@gmail.com",              "events": ["Anatomy & Physiology", "Codebusters", "Astronomy", "Machines"] },
+        { "name": "Peimeng Xu",                "grade": 10, "role": "Member",  "email": "peimeng.sd@gmail.com",              "events": ["Entomology", "Machines", "Water Quality"] },
+        { "name": "Wesley Chu",                "grade": 9,  "role": "Member",  "email": "wesley8chu@gmail.com",              "events": ["Disease Detectives", "Machines", "Water Quality"] },
+        { "name": "Ethan Yu",                  "grade": 11, "role": "Member",  "email": "ethanyu8909@gmail.com",             "events": ["Anatomy & Physiology", "Codebusters", "Astronomy", "Designer Genes"] },
+        { "name": "Samridh Madhavarao",        "grade": 11, "role": "Member",  "email": "samridm099@gmail.com",              "events": ["Codebusters", "Entomology", "Boomilever"] },
+        { "name": "Adya Shipekar",             "grade": 9,  "role": "Member",  "email": "adya.shipekar1@gmail.com",          "events": ["Anatomy & Physiology", "Codebusters", "Machines"] },
+        { "name": "Advita Rajagopalan",        "grade": 9,  "role": "Member",  "email": "advita.raja@gmail.com",             "events": ["Boomilever", "Bungee Drop", "Electric Vehicle"] },
+        { "name": "Wan Jun Tan",               "grade": 10, "role": "Member",  "email": "wanjunt010@gmail.com",              "events": ["Machines", "Boomilever", "Bungee Drop"] },
+        { "name": "Avni Chavan",               "grade": 10, "role": "Member",  "email": "avnichavan02@gmail.com",            "events": ["Machines", "Dynamic Planet", "Bungee Drop"] },
+        { "name": "Hanya Pulamarasetty",       "grade": 9,  "role": "Member",  "email": "hanyalp@gmail.com",                 "events": ["Codebusters", "Electric Vehicle", "Hovercraft"] }
       ]
     },
     {
-      "id": 4, "name": "Team 4", "color": "#e63946",
+      "id": 4, "name": "Team Melman", "color": "#e63946",
       "members": [
-        { "name": "Lena Tran",    "grade": 12, "role": "Captain",  "events": ["Codebusters","Astronomy","Engineering CAD"] },
-        { "name": "Kai Okonkwo",  "grade": 11, "role": "Member",   "events": ["Machines","Circuit Lab","Boomilever"] },
-        { "name": "Emma Walsh",   "grade": 10, "role": "Member",   "events": ["Designer Genes","Anatomy & Physiology","Entomology"] }
+        { "name": "Lily Huang",                "grade": 11, "role": "Captain", "email": "lilyhuangtheflowergirl@gmail.com",  "events": ["Anatomy & Physiology", "Entomology", "Robot Tour"] },
+        { "name": "Pranay Kamath",             "grade": 9,  "role": "Member",  "email": "pranaykamath22@gmail.com",          "events": ["Codebusters", "Machines", "Hovercraft", "Robot Tour"] },
+        { "name": "Eileen Wu",                 "grade": 11, "role": "Member",  "email": "qchichiw@gmail.com",                "events": ["Forensics", "Remote Sensing", "Boomilever"] },
+        { "name": "Abhinav Prathipati",        "grade": 9,  "role": "Member",  "email": "abhi.prathipati2011@gmail.com",     "events": ["Anatomy & Physiology", "Bungee Drop", "Electric Vehicle", "Hovercraft"] },
+        { "name": "Ethan Zhou",                "grade": 11, "role": "Member",  "email": "ethanyuzhou@gmail.com",             "events": ["Codebusters", "Astronomy", "Bungee Drop", "Electric Vehicle"] },
+        { "name": "Arjun Anand",               "grade": 9,  "role": "Member",  "email": "cyberdash.arjun03@gmail.com",       "events": ["Anatomy & Physiology", "Forensics", "Dynamic Planet"] },
+        { "name": "Stuti Pandey",              "grade": 9,  "role": "Member",  "email": "stutipande2011@gmail.com",          "events": ["Anatomy & Physiology", "Disease Detectives", "Materials Science"] },
+        { "name": "Srinaga Prahalad Pillutla", "grade": 11, "role": "Member",  "email": "srinagaprahalad50131@stu.powayusd.com", "events": ["Anatomy & Physiology", "Forensics", "Machines"] },
+        { "name": "Nandika Annamalai",         "grade": 11, "role": "Member",  "email": "nandikaa624@gmail.com",             "events": ["Codebusters", "Machines"] },
+        { "name": "Akshara Shankar",           "grade": 10, "role": "Member",  "email": "akshara86529@gmail.com",            "events": ["Anatomy & Physiology", "Machines", "Electric Vehicle"] },
+        { "name": "Chloe Lee",                 "grade": 11, "role": "Member",  "email": "se71116999@gmail.com",              "events": ["Anatomy & Physiology", "Codebusters", "Materials Science"] },
+        { "name": "Ashwin Vadi",               "grade": 10, "role": "Member",  "email": "ashwinmant.ravadi@gmail.com",       "events": ["Disease Detectives", "Astronomy", "Machines"] },
+        { "name": "Azita Newman",              "grade": 10, "role": "Member",  "email": "azitanewman73@gmail.com",           "events": ["Anatomy & Physiology", "Forensics", "Bungee Drop"] },
+        { "name": "Serena Li",                 "grade": 11, "role": "Member",  "email": "serenal43037@stu.powayusd.com",     "events": ["Anatomy & Physiology", "Machines", "Hovercraft", "Robot Tour"] }
       ]
     },
     {
-      "id": 5, "name": "Team 5", "color": "#9b5de5",
+      "id": 5, "name": "Team Moto Moto", "color": "#9b5de5",
       "members": [
-        { "name": "Ryan Sanchez", "grade": 12, "role": "Captain",  "events": ["Materials Science","Chemistry Lab","Forensics"] },
-        { "name": "Zoe Huang",    "grade": 11, "role": "Member",   "events": ["Electric Vehicle","Robot Tour","Hovercraft"] },
-        { "name": "Marcus Scott", "grade": 10, "role": "Member",   "events": ["Experimental Design","Water Quality","Rocks & Minerals"] }
+        { "name": "Austin Zhang",              "grade": 12, "role": "Captain", "email": "austinzhang0508@gmail.com",         "events": ["Codebusters", "Chem Lab"] },
+        { "name": "Aashray Rajagopalan",       "grade": 12, "role": "Member",  "email": "aashray.raja@gmail.com",            "events": ["Entomology", "Hovercraft", "Robot Tour"] },
+        { "name": "Derek Kang",                "grade": 11, "role": "Member",  "email": "derek.j.kang@gmail.com",            "events": ["Engineering CAD", "Machines", "Circuit Lab", "Materials Science"] },
+        { "name": "Hithin Pulamarasetty",      "grade": 11, "role": "Member",  "email": "hithinp@hithimail.com",             "events": ["Engineering CAD", "Hovercraft", "Robot Tour"] },
+        { "name": "Kanhay Patil",              "grade": 11, "role": "Member",  "email": "kanhay.patil@gmail.com",            "events": ["Disease Detectives", "Machines", "Robot Tour"] },
+        { "name": "Lilian Zeng",               "grade": 12, "role": "Member",  "email": "zenglslir@gmail.com",               "events": ["Forensics", "Codebusters", "Entomology"] },
+        { "name": "Olivia Li",                 "grade": 11, "role": "Member",  "email": "oliviali1341@gmail.com",            "events": ["Disease Detectives", "Machines", "Designer Genes"] },
+        { "name": "Shawn Kim",                 "grade": 11, "role": "Member",  "email": "shawnkim1000@gmail.com",            "events": ["Anatomy & Physiology", "Forensics", "Disease Detectives", "Water Quality"] },
+        { "name": "Gavin Zheng",               "grade": 10, "role": "Member",  "email": "g.zheng19@gmail.com",               "events": ["Anatomy & Physiology", "Water Quality", "Boomilever"] },
+        { "name": "Rayhaan Sheeraj",           "grade": 11, "role": "Member",  "email": "rayhaans785@gmail.com",             "events": ["Bungee Drop", "Electric Vehicle", "Robot Tour"] },
+        { "name": "Michelle Yu",               "grade": 10, "role": "Member",  "email": "michelley15539@gmail.com",          "events": ["Entomology", "Water Quality", "Materials Science", "Boomilever"] },
+        { "name": "Anish Degalmadikar",        "grade": 11, "role": "Member",  "email": "anish.degalmadikar09@gmail.com",    "events": ["Astronomy", "Circuit Lab", "Materials Science", "Bungee Drop"] },
+        { "name": "Medha Aravind",             "grade": 11, "role": "Member",  "email": "ragamaran099@gmail.com",            "events": ["Anatomy & Physiology", "Disease Detectives", "Machines"] },
+        { "name": "Daniel Bu",                 "grade": 11, "role": "Member",  "email": "xihandbu@gmail.com",                "events": ["Remote Sensing", "Astronomy", "Machines"] },
+        { "name": "Ruhaan Bansal",             "grade": 10, "role": "Member",  "email": "ruhamobile@gmail.com",              "events": ["Codebusters", "Machines", "Hovercraft"] }
       ]
     }
   ]
