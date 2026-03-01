@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — Del Norte Science Olympiad 2026</title>
+  <meta name="description" content="All 23 official Division C events for the 2026 Science Olympiad season at Del Norte High School." />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<div class="noise"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-wrap">
+    <a href="../index.html" class="nav-logo">
+      <img src="https://cdn.discordapp.com/icons/984293547261980672/d703dbd71738bb66a9094845344f2e28.webp?size=128" alt="Del Norte Nighthawks" />
+      <div class="wordmark">
+        <strong>Del Norte</strong>
+        <small>Science Olympiad</small>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="events.html" class="active">Events</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="hero-pill" style="display:inline-flex;align-items:center;gap:.5rem;padding:.3rem 1rem;border-radius:50px;background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.25);font-family:var(--font-mono);font-size:.72rem;font-weight:600;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;margin-bottom:1.25rem">
+    ◆ Division C · 2026 Rule Manual
+  </div>
+  <h1 class="page-hero-title">2026 <em>Events</em></h1>
+  <p class="page-hero-sub">
+    All <strong id="evCount" style="color:var(--gold)">23</strong> official Division C events for the 2026 Science Olympiad season
+  </p>
+</div>
+
+<!-- EVENTS SECTION -->
+<section>
+  <div class="wrap">
+    <div class="filter-bar" id="filters">
+      <!-- Populated by events.js -->
+    </div>
+
+    <!-- Type legend -->
+    <div style="display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:2rem">
+      <span style="font-family:var(--font-mono);font-size:.72rem;color:var(--txt2)">Type:</span>
+      <span class="tag tag-Study">Study</span>
+      <span class="tag tag-Lab">Lab</span>
+      <span class="tag tag-Build">Build</span>
+      <span class="tag tag-Tech">Tech</span>
+    </div>
+
+    <div class="ev-full-grid" id="evGrid">
+      <!-- Populated by events.js -->
+      <div class="card ev-full-card" style="opacity:.3">
+        <div class="top"><div class="nm">Loading events…</div></div>
+      </div>
+    </div>
+
+    <!-- SOINC link -->
+    <div style="text-align:center;margin-top:3rem" class="fi">
+      <p style="color:var(--txt2);font-size:.88rem;margin-bottom:1rem">Official event rules and resources</p>
+      <a href="https://www.soinc.org/events/2026-division-c-events" target="_blank" rel="noreferrer" class="btn btn-outline">
+        SOINC Official Site ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <img src="https://cdn.discordapp.com/icons/984293547261980672/d703dbd71738bb66a9094845344f2e28.webp?size=64" alt="logo" />
+      <span>DN SciOly · 2026</span>
+    </div>
+    <div class="foot-links">
+      <a href="../index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="team.html">Team</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-copy">© 2026 Del Norte Science Olympiad · San Diego, CA</div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/events.js"></script>
+</body>
+</html>

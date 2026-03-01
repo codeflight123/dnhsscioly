@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule — Del Norte Science Olympiad 2026</title>
+  <meta name="description" content="2026 Science Olympiad season schedule — practices, invitationals, and tournaments for Del Norte High School." />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .sf-row.past { opacity: .5; }
+    .sf-row.past .nm::after { content: ' ✓'; color: var(--teal); font-size: .8rem; }
+    .legend { display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem;align-items:center }
+    .legend span { font-family:var(--font-mono);font-size:.7rem;color:var(--txt2) }
+  </style>
+</head>
+<body>
+
+<div class="noise"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-wrap">
+    <a href="../index.html" class="nav-logo">
+      <img src="https://cdn.discordapp.com/icons/984293547261980672/d703dbd71738bb66a9094845344f2e28.webp?size=128" alt="Del Norte Nighthawks" />
+      <div class="wordmark">
+        <strong>Del Norte</strong>
+        <small>Science Olympiad</small>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="schedule.html" class="active">Schedule</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="hero-pill" style="display:inline-flex;align-items:center;gap:.5rem;padding:.3rem 1rem;border-radius:50px;background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.25);font-family:var(--font-mono);font-size:.72rem;font-weight:600;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;margin-bottom:1.25rem">
+    ◆ Sep 2025 — Apr 2026
+  </div>
+  <h1 class="page-hero-title">2026 <em>Schedule</em></h1>
+  <p class="page-hero-sub">Practices, invitationals, scrimmages, and tournaments — all season long</p>
+</div>
+
+<!-- SCHEDULE -->
+<section>
+  <div class="wrap">
+
+    <div class="legend fi">
+      <span>Legend:</span>
+      <span class="sbadge sbadge-practice">Practice</span>
+      <span class="sbadge sbadge-scrimmage">Scrimmage</span>
+      <span class="sbadge sbadge-invitational">Invitational</span>
+      <span class="sbadge sbadge-tournament">Tournament</span>
+    </div>
+
+    <div class="sched-full" id="schedList">
+      <div class="sf-row" style="opacity:.3">Loading schedule…</div>
+    </div>
+
+    <div class="fi" style="margin-top:3rem;text-align:center">
+      <p style="color:var(--txt2);font-size:.85rem;margin-bottom:1rem">
+        Dates subject to change — check back regularly or contact your team captain.
+      </p>
+      <a href="contact.html" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <img src="https://cdn.discordapp.com/icons/984293547261980672/d703dbd71738bb66a9094845344f2e28.webp?size=64" alt="logo" />
+      <span>DN SciOly · 2026</span>
+    </div>
+    <div class="foot-links">
+      <a href="../index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="team.html">Team</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-copy">© 2026 Del Norte Science Olympiad · San Diego, CA</div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/schedule.js"></script>
+</body>
+</html>

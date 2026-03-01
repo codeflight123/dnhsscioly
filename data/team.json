@@ -1,0 +1,48 @@
+{
+  "school": "Del Norte High School",
+  "address": "16601 Nighthawk Lane, San Diego, CA 92127",
+  "season": "2026",
+  "mascot": "Nighthawks",
+  "teams": [
+    {
+      "id": 1, "name": "Team 1", "color": "#f5c842",
+      "members": [
+        { "name": "Alex Chen",    "grade": 12, "role": "Captain",  "events": ["Astronomy","Codebusters","Remote Sensing"] },
+        { "name": "Maya Patel",   "grade": 11, "role": "Member",   "events": ["Chemistry Lab","Materials Science","Forensics"] },
+        { "name": "Jordan Kim",   "grade": 10, "role": "Member",   "events": ["Boomilever","Circuit Lab","Machines"] }
+      ]
+    },
+    {
+      "id": 2, "name": "Team 2", "color": "#3a8fd1",
+      "members": [
+        { "name": "Sam Rivera",   "grade": 12, "role": "Captain",  "events": ["Anatomy & Physiology","Disease Detectives","Water Quality"] },
+        { "name": "Priya Nair",   "grade": 11, "role": "Member",   "events": ["Designer Genes","Entomology","Experimental Design"] },
+        { "name": "Tyler Wong",   "grade": 10, "role": "Member",   "events": ["Robot Tour","Electric Vehicle","Engineering CAD"] }
+      ]
+    },
+    {
+      "id": 3, "name": "Team 3", "color": "#2ec4a9",
+      "members": [
+        { "name": "Aiden Park",   "grade": 12, "role": "Captain",  "events": ["Dynamic Planet","Rocks & Minerals","Remote Sensing"] },
+        { "name": "Sofia Gomez",  "grade": 11, "role": "Member",   "events": ["Forensics","Water Quality","Disease Detectives"] },
+        { "name": "Noah Ali",     "grade": 10, "role": "Member",   "events": ["Helicopter","Bungee Drop","Hovercraft"] }
+      ]
+    },
+    {
+      "id": 4, "name": "Team 4", "color": "#e63946",
+      "members": [
+        { "name": "Lena Tran",    "grade": 12, "role": "Captain",  "events": ["Codebusters","Astronomy","Engineering CAD"] },
+        { "name": "Kai Okonkwo",  "grade": 11, "role": "Member",   "events": ["Machines","Circuit Lab","Boomilever"] },
+        { "name": "Emma Walsh",   "grade": 10, "role": "Member",   "events": ["Designer Genes","Anatomy & Physiology","Entomology"] }
+      ]
+    },
+    {
+      "id": 5, "name": "Team 5", "color": "#9b5de5",
+      "members": [
+        { "name": "Ryan Sanchez", "grade": 12, "role": "Captain",  "events": ["Materials Science","Chemistry Lab","Forensics"] },
+        { "name": "Zoe Huang",    "grade": 11, "role": "Member",   "events": ["Electric Vehicle","Robot Tour","Hovercraft"] },
+        { "name": "Marcus Scott", "grade": 10, "role": "Member",   "events": ["Experimental Design","Water Quality","Rocks & Minerals"] }
+      ]
+    }
+  ]
+}

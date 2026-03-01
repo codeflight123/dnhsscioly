@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team — Del Norte Science Olympiad 2026</title>
+  <meta name="description" content="Meet the 5 teams and 15 members of Del Norte High School Science Olympiad's 2026 roster." />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<div class="noise"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-wrap">
+    <a href="../index.html" class="nav-logo">
+      <img src="https://cdn.discordapp.com/icons/984293547261980672/d703dbd71738bb66a9094845344f2e28.webp?size=128" alt="Del Norte Nighthawks" />
+      <div class="wordmark">
+        <strong>Del Norte</strong>
+        <small>Science Olympiad</small>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="team.html" class="active">Team</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="hero-pill" style="display:inline-flex;align-items:center;gap:.5rem;padding:.3rem 1rem;border-radius:50px;background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.25);font-family:var(--font-mono);font-size:.72rem;font-weight:600;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;margin-bottom:1.25rem">
+    ◆ 2026 Roster
+  </div>
+  <h1 class="page-hero-title">Meet the <em>Team</em></h1>
+  <p class="page-hero-sub">5 teams · 15 members · 23 events · one Nighthawk family</p>
+</div>
+
+<!-- STATS BAR -->
+<section style="padding:3rem 2rem 0">
+  <div class="wrap">
+    <div class="t-stats-row">
+      <div class="tstat fi">
+        <div class="n" id="statTeams">5</div>
+        <div class="l">Teams</div>
+      </div>
+      <div class="tstat fi fi-d1">
+        <div class="n" id="statMembers">15</div>
+        <div class="l">Members</div>
+      </div>
+      <div class="tstat fi fi-d2">
+        <div class="n" id="statEvents">23</div>
+        <div class="l">Events</div>
+      </div>
+      <div class="tstat fi fi-d3">
+        <div class="n" id="statSeason">2026</div>
+        <div class="l">Season</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAMS GRID -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-label fi">All Five Teams</div>
+      <h2 class="sec-title fi fi-d1">2026 <em>Roster</em></h2>
+      <p class="sec-sub fi fi-d2">Each team of 3 competes across all 23 events, with members specializing in 2–3 events each.</p>
+    </div>
+    <div class="teams-full" id="teamsGrid">
+      <!-- Populated by team.js -->
+      <div class="card tf-card" style="opacity:.3">Loading roster…</div>
+    </div>
+
+    <!-- note about placeholder names -->
+    <div class="fi" style="margin-top:2.5rem;padding:1.25rem 1.5rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);display:flex;gap:.75rem;align-items:flex-start">
+      <span style="font-size:1.1rem">💡</span>
+      <p style="font-size:.85rem;color:var(--txt2);line-height:1.65">
+        <strong style="color:var(--txt)">Note for coaches / admins:</strong> 
+        Member names and event assignments are placeholder data. 
+        Update <code style="font-family:var(--font-mono);background:var(--bg3);padding:.1rem .4rem;border-radius:4px;font-size:.8rem">data/team.json</code> 
+        with your actual roster information — it'll automatically reflect everywhere on the site.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <img src="https://cdn.discordapp.com/icons/984293547261980672/d703dbd71738bb66a9094845344f2e28.webp?size=64" alt="logo" />
+      <span>DN SciOly · 2026</span>
+    </div>
+    <div class="foot-links">
+      <a href="../index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="team.html">Team</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="foot-copy">© 2026 Del Norte Science Olympiad · San Diego, CA</div>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/team.js"></script>
+</body>
+</html>

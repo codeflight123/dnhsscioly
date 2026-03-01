@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1, "name": "Anatomy & Physiology",
+    "category": "Life, Personal & Social Science", "short": "Life Science",
+    "type": "Study", "icon": "🫀",
+    "desc": "Demonstrate knowledge of the anatomy and physiology of the human muscular, skeletal, and integumentary systems."
+  },
+  {
+    "id": 2, "name": "Designer Genes",
+    "category": "Life, Personal & Social Science", "short": "Life Science",
+    "type": "Study", "icon": "🧬",
+    "desc": "Solve problems related to molecular genetics, gene expression, mutations, CRISPR, and modern biotechnology."
+  },
+  {
+    "id": 3, "name": "Disease Detectives",
+    "category": "Life, Personal & Social Science", "short": "Life Science",
+    "type": "Study", "icon": "🔬",
+    "desc": "Apply epidemiological principles to investigate disease outbreaks, environmental hazards, and public health scenarios."
+  },
+  {
+    "id": 4, "name": "Entomology",
+    "category": "Life, Personal & Social Science", "short": "Life Science",
+    "type": "Study", "icon": "🐛",
+    "desc": "Identify and answer questions about insects from designated orders — taxonomy, morphology, ecology, and economic importance."
+  },
+  {
+    "id": 5, "name": "Water Quality",
+    "category": "Life, Personal & Social Science", "short": "Life Science",
+    "type": "Lab", "icon": "💧",
+    "desc": "Identify macroinvertebrates and complete tasks relating to freshwater ecosystem health, pollution, and water chemistry."
+  },
+  {
+    "id": 6, "name": "Astronomy",
+    "category": "Earth & Space Science", "short": "Earth & Space",
+    "type": "Study", "icon": "🌌",
+    "desc": "Demonstrate knowledge of stellar evolution, variable stars, the H-R diagram, binary systems, and extragalactic objects."
+  },
+  {
+    "id": 7, "name": "Dynamic Planet",
+    "category": "Earth & Space Science", "short": "Earth & Space",
+    "type": "Study", "icon": "🌋",
+    "desc": "Explore Earth's glaciers — glacial processes, ice cores, glacial landforms, sea level change, and climate implications."
+  },
+  {
+    "id": 8, "name": "Remote Sensing",
+    "category": "Earth & Space Science", "short": "Earth & Space",
+    "type": "Study", "icon": "🛰️",
+    "desc": "Analyze satellite and aerial imagery to interpret land cover, atmospheric conditions, and surface processes on Earth."
+  },
+  {
+    "id": 9, "name": "Rocks & Minerals",
+    "category": "Earth & Space Science", "short": "Earth & Space",
+    "type": "Lab", "icon": "💎",
+    "desc": "Identify rocks and minerals using physical properties, interpret formation environments, and analyze geologic cross-sections."
+  },
+  {
+    "id": 10, "name": "Chemistry Lab",
+    "category": "Physical Science & Chemistry", "short": "Phys & Chem",
+    "type": "Lab", "icon": "⚗️",
+    "desc": "Complete lab tasks and questions on physical/chemical properties, stoichiometry, equilibrium, and thermodynamics."
+  },
+  {
+    "id": 11, "name": "Circuit Lab",
+    "category": "Physical Science & Chemistry", "short": "Phys & Chem",
+    "type": "Lab", "icon": "⚡",
+    "desc": "Build and analyze DC circuits covering Ohm's Law, Kirchhoff's Laws, capacitors, inductors, and RC circuits."
+  },
+  {
+    "id": 12, "name": "Forensics",
+    "category": "Physical Science & Chemistry", "short": "Phys & Chem",
+    "type": "Lab", "icon": "🔍",
+    "desc": "Identify polymers, analyze chromatography, and solve forensic chemistry problems using analytical techniques."
+  },
+  {
+    "id": 13, "name": "Hovercraft",
+    "category": "Physical Science & Chemistry", "short": "Phys & Chem",
+    "type": "Build", "icon": "🌀",
+    "desc": "Pre-build a hovercraft with one lift motor and one thrust motor that navigates a course with maximum precision."
+  },
+  {
+    "id": 14, "name": "Machines",
+    "category": "Physical Science & Chemistry", "short": "Phys & Chem",
+    "type": "Study", "icon": "⚙️",
+    "desc": "Answer questions and complete tasks on simple machines, mechanical advantage, work, power, and classical mechanics."
+  },
+  {
+    "id": 15, "name": "Materials Science",
+    "category": "Physical Science & Chemistry", "short": "Phys & Chem",
+    "type": "Lab", "icon": "🧪",
+    "desc": "Identify materials and complete tasks on structure-property relationships, composites, ceramics, polymers, and metals."
+  },
+  {
+    "id": 16, "name": "Boomilever",
+    "category": "Technology & Engineering", "short": "Tech & Eng",
+    "type": "Build", "icon": "🏗️",
+    "desc": "Design and build a cantilevered structure scored on structural efficiency — ratio of load held to structural mass."
+  },
+  {
+    "id": 17, "name": "Electric Vehicle",
+    "category": "Technology & Engineering", "short": "Tech & Eng",
+    "type": "Build", "icon": "🔋",
+    "desc": "Pre-build an electric vehicle powered by a single battery that travels a target distance as precisely as possible."
+  },
+  {
+    "id": 18, "name": "Helicopter",
+    "category": "Technology & Engineering", "short": "Tech & Eng",
+    "type": "Build", "icon": "🚁",
+    "desc": "Build a rubber-band-powered helicopter achieving maximum flight time. Scored on hang time and launch precision."
+  },
+  {
+    "id": 19, "name": "Robot Tour",
+    "category": "Technology & Engineering", "short": "Tech & Eng",
+    "type": "Build", "icon": "🤖",
+    "desc": "Program an autonomous robot to navigate a course stopping at designated targets as precisely as possible."
+  },
+  {
+    "id": 20, "name": "Bungee Drop",
+    "category": "Inquiry & Nature of Science", "short": "Inquiry",
+    "type": "Build", "icon": "🪢",
+    "desc": "Construct a bungee cord system that drops a mass from a height, bringing it as close to the ground as possible without touching."
+  },
+  {
+    "id": 21, "name": "Codebusters",
+    "category": "Inquiry & Nature of Science", "short": "Inquiry",
+    "type": "Study", "icon": "🔐",
+    "desc": "Encrypt and decrypt messages using classical and modern ciphers: Caesar, Vigenère, Playfair, Baconian, and RSA."
+  },
+  {
+    "id": 22, "name": "Engineering CAD",
+    "category": "Inquiry & Nature of Science", "short": "Inquiry",
+    "type": "Tech", "icon": "📐",
+    "desc": "Use Onshape CAD software to create 2D drawings and parametric 3D solid models from engineering specifications."
+  },
+  {
+    "id": 23, "name": "Experimental Design",
+    "category": "Inquiry & Nature of Science", "short": "Inquiry",
+    "type": "Lab", "icon": "🧫",
+    "desc": "Design, conduct, and report an experiment in real-time using the scientific method, data analysis, and statistical reasoning."
+  }
+]
