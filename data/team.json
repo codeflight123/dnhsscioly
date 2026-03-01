@@ -23,7 +23,7 @@
     {
       "id": 3, "name": "Team 3", "color": "#2ec4a9",
       "members": [
-        { "name": "Aiden Park",   "grade": 12, "role": "Captain",  "events": ["Dynamic Planet","Rocks & Minerals","Remote Sensing"] },
+        { "name": "Aiden Gomez",   "grade": 12, "role": "Captain",  "events": ["Dynamic Planet","Rocks & Minerals","Remote Sensing"] },
         { "name": "Sofia Gomez",  "grade": 11, "role": "Member",   "events": ["Forensics","Water Quality","Disease Detectives"] },
         { "name": "Noah Ali",     "grade": 10, "role": "Member",   "events": ["Helicopter","Bungee Drop","Hovercraft"] }
       ]
